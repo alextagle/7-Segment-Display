@@ -3,6 +3,7 @@
     Dim segment(25) As PictureBox
     Dim i = 1
     Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+        Dim x = 2
         segment(1) = PictureBox1
         segment(2) = PictureBox2
         segment(3) = PictureBox3
